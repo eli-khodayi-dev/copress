@@ -35,10 +35,10 @@ In this project, I focused on:
 
 ---
 
-# 📸 Preview
+## 📸 Preview
 
-![Project Preview]([https://eli-khodayi-dev.github.io/copress/assets/preview.png](https://eli-khodayi-dev.github.io/copress/
-)
+![Photo Compression Tool](https://eli-khodayi-dev.github.io/copress/screencapture-eli-khodayi-dev-github-io-copress-2026-06-25-11_47_53.png)
+
 *(Note: Replace the link above with your actual screenshot path if you want it to show up in the README)*
 
 ---
