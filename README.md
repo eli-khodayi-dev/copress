@@ -3,6 +3,15 @@
 
 A sleek, responsive, and modern web application designed to demonstrate the power of image optimization. This project features a creative UI with a "Before vs After" comparison tool, highlighting the importance of web performance.
 
+## live demo
+https://eli-khodayi-dev.github.io/copress
+
+## 📸 Preview
+
+![Photo Compression Tool]()
+
+*(Note: Replace the link above with your actual screenshot path if you want it to show up in the README)*
+
 ---
 
 ## 🚀 Overview
@@ -32,14 +41,6 @@ In this project, I focused on:
 1. **User Experience (UX):** Making the compression process look effortless and rewarding.
 2. **Visual Hierarchy:** Using colors (like the green "compress again" button) to guide user actions.
 3. **Contrast:** Balancing the dark background with glowing UI elements to make the content pop.
-
----
-
-## 📸 Preview
-
-![Photo Compression Tool](https://eli-khodayi-dev.github.io/copress)
-
-*(Note: Replace the link above with your actual screenshot path if you want it to show up in the README)*
 
 ---
 
