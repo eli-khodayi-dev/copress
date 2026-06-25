@@ -37,7 +37,7 @@ In this project, I focused on:
 
 ## 📸 Preview
 
-![Photo Compression Tool](https://eli-khodayi-dev.github.io/copress/screencapture-eli-khodayi-dev-github-io-copress-2026-06-25-11_47_53.png)
+![Photo Compression Tool](https://eli-khodayi-dev.github.io/copress)
 
 *(Note: Replace the link above with your actual screenshot path if you want it to show up in the README)*
 
