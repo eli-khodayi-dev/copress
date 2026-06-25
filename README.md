@@ -8,7 +8,7 @@ https://eli-khodayi-dev.github.io/copress
 
 ## 📸 Preview
 
-![Photo Compression Tool]()
+![Photo Compression Tool](https://eli-khodayi-dev.github.io/copress/demo.png)
 
 *(Note: Replace the link above with your actual screenshot path if you want it to show up in the README)*
 
