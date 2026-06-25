@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* flex-direction: column; */
+            /* border: 1px solid red; */
+            position: relative;
+            
+        }
+        .box{
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            
+        }
+        .h1{
+            display: flex;
+            flex-direction: column;
+            /* justify-items: center; */
+            align-items: center;
+            background-color: rgba(127, 255, 212, 0.336);
+            padding: 0 20px 20px 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 50px 1px rgb(80, 109, 80);
+            
+            &:hover{
+                background-color: rgba(70, 68, 68, 0.555);
+                >h1{
+                    color: white;
+                }
+
+            }
+            transition: 1s;
+
+            
+            >div{
+                /* width: 500px; */
+                display: flex;
+                  >a{
+                 justify-content: space-between;
+                 text-decoration: none;
+                 margin-left: 10px;
+                 color: black;
+                 font-family: none;
+                 width: 120px;
+                 height: 30px;
+                 /* align-items: center; */
+                 align-content: center;
+                 text-align: center;
+                 font-family: sans-serif;
+                 color: antiquewhite;
+                 border-radius: 10px;
+                 &:nth-of-type(1){
+                    background-color: rgb(0, 0, 0);
+                 }
+                 &:nth-of-type(2){
+                    background-color: rgb(10, 68, 20);
+                 }
+                 &:hover{
+                    scale: calc(1.1);
+                 }
+                 transition: 1s;
+                
+                  }
+
+            }
+            
+            >h1{
+                color: rgb(90, 89, 89);
+                font-size: 40px;
+                font-family: 'Courier New', Courier, monospace;
+                transition: 1s;
+            }
+        }
+        
+        .bar{
+            width: 610px;
+            height: 388px;
+            /* margin: 100px; */
+            align-items: center;
+            /* border: 1px solid black; */
+            display: flex;
+            box-shadow: 0 0 50px 1px rgb(114, 114, 114);
+            border-radius: 10px;
+            justify-items: center;
+            
+            >div{
+                /* border: 1px solid rgb(90, 90, 90); */
+                /* width: 100%; */
+                height: 100%;
+                display: flex;
+                flex-grow: 1;
+                transition: 1.5s;
+                
+                &:nth-of-type(1){
+                /* object-fit: cover; */
+                background-image: url(img/2.jpg);
+                background-size: cover;
+                border-radius: 10px 0 0 10px;
+                }
+                &:nth-of-type(2){
+                    background-image: url(img/3.jpg);
+                    /* object-fit: cover; */
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    border-radius: 0 10px 10px 0;
+
+                }
+                
+                &:hover{
+                    flex-grow: 100;
+                    
+                    
+                }
+                >p{
+                    font-size: 20px;
+                    font-family: sans-serif;
+                    padding: 10px;
+                    color: white;
+
+                }
+            }
+        }
+        .bac{
+            position: absolute;
+            width: 100%;
+            height: 100vh;
+            z-index: -1;
+            background: repeating-linear-gradient(90deg, rgb(48, 48, 48) 0 1px, transparent 2px 40px),
+            repeating-linear-gradient(0deg, rgb(46, 46, 46) 0 1px, transparent 2px 40px);
+            position: fixed;
+            background-color: rgb(77, 77, 77);
+            /* opacity: 1; */
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="bac"></div>
+    <div class="box">
+        <div class="h1">
+        <h1>Photo compression</h1>
+        <div>
+        <a href="#">compress now</a>
+        <a href="#">compress again</a>
+    </div>
+    </div>
+    <div class="bar">
+        
+        <div>
+            <p>before</p>
+            
+        </div>
+        <div>
+            <p>after</p>
+            <img src="" alt="">
+        </div>
+    </div>
+
+    </div>
+    
+    
+</body>
+</html>
