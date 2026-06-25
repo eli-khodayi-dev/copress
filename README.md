@@ -1,6 +1,4 @@
-# copress
 
-https://eli-khodayi-dev.github.io/copress/
 # 🖼️ Photo Compression Tool
 
 A sleek, responsive, and modern web application designed to demonstrate the power of image optimization. This project features a creative UI with a "Before vs After" comparison tool, highlighting the importance of web performance.
@@ -23,9 +21,8 @@ This project is a visual representation of **Web Image Compressor**. It’s not 
 
 ## 🛠️ Technologies Used
 
-- **HTML5:** Semantic structure for better accessibility.
-- **CSS3:** Advanced styling including Flexbox, Grid, Glassmorphism, and custom animations.
-- **JavaScript (Vanilla):** To handle U interactions and state changes between "Compress Now" and "Compress Again".
+- **HTML:** Semantic structure for better accessibility.
+- **CSS:** Advanced styling including Flexbox, Grid, Glassmorphism, and custom animations.
 
 ---
 
@@ -40,7 +37,8 @@ In this project, I focused on:
 
 # 📸 Preview
 
-![Project Preview](https://eli-khodayi-dev.github.io/copress/assets/preview.png)
+![Project Preview]([https://eli-khodayi-dev.github.io/copress/assets/preview.png](https://eli-khodayi-dev.github.io/copress/
+)
 *(Note: Replace the link above with your actual screenshot path if you want it to show up in the README)*
 
 ---
